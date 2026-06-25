@@ -16,8 +16,7 @@ const Navbar = () => {
         <ul className="hidden md:flex items-center gap-8 text-slate-300 [&>li]:font-normal">
           <li><a href="#about">About</a></li>
           <li><a href="#skills">Skills</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#projects">Projects</a></li> 
         </ul>
 
         {/* Desktop Resume */}
@@ -38,8 +37,7 @@ const Navbar = () => {
           <ul className="flex flex-col p-5 gap-4 text-slate-300">
             <li><a href="#about">About</a></li>
             <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#projects">Projects</a></li> 
 
             <li>
               <a
