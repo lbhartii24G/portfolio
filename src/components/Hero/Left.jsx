@@ -14,7 +14,7 @@ const Left = () => {
             <a href="#projects" className="bg-blue-600 hover:bg-blue-700 px-6 py-3 font-normal rounded-lg font-medium transition text-sm md:text-base">
                 View Projects <MoveRight className="inline-block pl-1" />
             </a>
-            <a href="/Laxmi_Bharti_Resume.pdf" download target="_blank" rel="noreferrer" className="border text-sm md:text-base font-normal border-slate-600 hover:border-blue-500 px-6 py-3 rounded-lg font-medium transition">
+            <a href="/portfolio/Laxmi_Bharti_Resume.pdf" download target="_blank" rel="noreferrer" className="border text-sm md:text-base font-normal border-slate-600 hover:border-blue-500 px-6 py-3 rounded-lg font-medium transition">
                 Download Resume <Download className="inline-block pl-1"  />
             </a>
         </div>

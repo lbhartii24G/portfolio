@@ -20,7 +20,7 @@ const Navbar = () => {
         </ul>
 
         {/* Desktop Resume */}
-        <a href="/Laxmi_Bharti_Resume.pdf" target="_blank" rel="noreferrer" className="hidden md:block bg-blue-600 px-5 py-2 rounded-lg text-white" >Resume </a>
+        <a href="/portfolio/Laxmi_Bharti_Resume.pdf" target="_blank" rel="noreferrer" className="hidden md:block bg-blue-600 px-5 py-2 rounded-lg text-white" >Resume </a>
 
         {/* Mobile Button */}
         <button
@@ -41,7 +41,7 @@ const Navbar = () => {
 
             <li>
               <a
-                href="/Laxmi_Bharti_Resume.pdf" target="_blank" rel="noreferrer" 
+                href="/portfolio/Laxmi_Bharti_Resume.pdf" target="_blank" rel="noreferrer" 
                 className="inline-block bg-blue-600 px-4 py-2 rounded-lg text-white"
               >
                 Resume

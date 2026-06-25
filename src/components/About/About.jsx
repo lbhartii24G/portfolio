@@ -12,7 +12,7 @@ const About = () => {
                         Frontend Enthusiat</h2>
                     <p className="text-slate-400 text-base md:text-lg leading-relaxed max-w-full lg:max-w-2xl mb-4">I am a Full Stack WordPress Developer with over 5 years of experience building custom WordPress websites, WooCommerce stores, landing pages, and scalable web solutions.</p>
                     <p className="text-slate-400 text-lg leading-relaxed max-w-full lg:max-w-2xl mb-4">My expertise includes WordPress, Elementor, Divi, Gutenberg, WooCommerce, PHP, JavaScript, React.js, and Tailwind CSS. I focus on creating fast, responsive, SEO-friendly websites that deliver exceptional user experiences.</p>
-                    <a href="/Laxmi_Bharti_Resume.pdf" target="_blank" rel="noreferrer" className="border border-white hover:border-blue-500 px-6 py-3 rounded-lg font-medium transition inline-block ">
+                    <a href="/portfolio/Laxmi_Bharti_Resume.pdf" target="_blank" rel="noreferrer" className="border border-white hover:border-blue-500 px-6 py-3 rounded-lg font-medium transition inline-block ">
                         <Download className="text-[#2563eb] inline-block items-start leading-none mr-2 mt-[-3px]" size={18}  /> Download Resume 
                     </a>
                 </div>
