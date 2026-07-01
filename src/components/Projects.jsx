@@ -85,10 +85,10 @@ const Projects = () => {
                             <img src={data.p_image} alt={data.p_title} className="w-full h-56 object-cover object-top-left"/>
                             <div className="p-6"> 
                                 <h3 className="text-2xl font-semibold mb-3">{data.p_title} </h3>
-                                <div className="flex justify-end gap-4">
-                                    <a href={data.p_link} target="_blank" rel="noreferrer" >View Project</a> 
-                                </div>
                                 {/* project description */}
+                                <div className="inline-block mb-3 underline">
+                                    <a href={data.p_link} target="_blank" rel="noreferrer" >View Project <ExternalLink size={20} className="inline-block ml-2"/></a> 
+                                </div>
                                 <p className="text-slate-400 mb-5 text-base md:text-lg">{data.p_description}</p>
                                 <div className="flex gap-3 flex-wrap mb-6">
                                     {data.p_tags.map(function(tag){
@@ -96,7 +96,6 @@ const Projects = () => {
                                     })}
                                     
                                 </div> 
-                                
                             </div>
                         </div>
                     })}  
