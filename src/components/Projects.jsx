@@ -13,7 +13,8 @@ const project_arr = [
         p_description:"Developed a responsive single-page landing website using React.js and Tailwind CSS, focusing on modern UI design, component-based architecture, and mobile-first responsiveness. Implemented reusable React components, clean layouts, and optimized styling to deliver a seamless user experience across devices.",
         p_tags:[
             "React",
-            "Tailwind CSS"
+            "Tailwind CSS",
+            "Smooth Scrolling"
         ],
         p_link:"https://lbhartii24g.github.io/React_Tailwind/"
     },
@@ -24,7 +25,9 @@ const project_arr = [
         p_description:"Created a WooCommerce-based WordPress website with responsive page layouts, product management functionality, checkout workflows, and performance optimizations to deliver a seamless shopping experience across devices",
         p_tags:[
             "WordPress",
-            "WooCommerce"
+            "WooCommerce",
+            "Product Managment",
+            "Checkout flow"
         ],
         p_link:"https://udbodhan.org/"
     },
