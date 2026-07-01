@@ -2,6 +2,8 @@ import { ExternalLink } from "lucide-react"
 import React_project from "../assets/ReactLandingPageProject.JPG"
 import Project_Udbodhan from "../assets/Udhbodhan_project.JPG"
 import Project_brandshark from "../assets/Project_brandshark.JPG"
+import project_solus from "../assets/project_solus.JPG"
+import project_spark from "../assets/project_spark.JPG"
 
 const project_arr = [
     {
@@ -36,6 +38,33 @@ const project_arr = [
             "ACF"
         ],
         p_link:"https://brandshark.com/"
+    },
+    {
+        id:4,
+        p_image:project_spark,
+        p_title:"The Spark",
+        p_description:"Developed a modern and responsive website for The Spark, a platform focused on fostering collaboration, innovation, and social impact initiatives. Built the website using WordPress and the Divi Theme, creating clean, engaging, and user-friendly page layouts with a strong emphasis on accessibility and performance. Customized Divi modules, implemented reusable sections, and ensured a seamless browsing experience across desktop, tablet, and mobile devices.",
+        p_tags:[
+            "Cross-Browser Compatibility",
+            "Performance Optimization",
+            "Content Management", 
+
+        ],
+        p_link:"https://www.solus.ai/"
+    },
+    {
+        id:5,
+        p_image:project_solus,
+        p_title:"Solus AI",
+        p_description:"Developed a modern, responsive business website for Solus.ai using WordPress and the Divi Theme. Customized Divi modules and layouts to create visually appealing landing pages while ensuring responsiveness across all devices. Implemented reusable sections, optimized page performance, and maintained consistent branding throughout the website. Integrated gravity forms, call-to-action sections, and interactive UI elements to improve user engagement.",
+        p_tags:[
+            "Divi Theme",
+            "ACF",
+            "Gravity Forms",
+            "Slick Slider"
+
+        ],
+        p_link:"https://www.solus.ai/"
     }
 ]
 const Projects = () => {
